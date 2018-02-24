@@ -1,0 +1,25 @@
+.dsd{
+    width:70%;
+    height:.4rem;
+    margin-left:15%;
+    display:flex;
+}
+.dsd a{
+    flex-grow:1;
+    font-size:20px;
+    font-weight:800;
+    line-height:.4rem;
+}
+.dsd a i{
+    font-size:.24rem;
+}
+.dsd a:nth-child(2){
+   text-align:center;
+
+}
+#gwc{
+    width:100%;
+    height:.4rem;
+ 
+
+}

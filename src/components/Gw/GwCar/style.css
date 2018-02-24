@@ -1,0 +1,31 @@
+.dlis{
+    width:100%;
+    height:auto;
+    margin-bottom: 20px;
+    display:flex;
+}
+.dlis dt{
+    width:40%;
+}
+.dlis dt img{
+    width:100%;
+}
+.dlis  dd{
+    width:60%;
+    margin-left:.2rem;
+}
+.dlis dd p,.dlis dd h6{
+    width:100%;
+    height:.4rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dlis dd p a {
+    width:50%;
+    height:.4rem;
+}
+.dlis dd h6 span{
+    width:33.3%;
+    white-space:nowrap;
+}

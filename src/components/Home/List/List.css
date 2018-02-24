@@ -1,0 +1,69 @@
+ .sect{
+   width:100%;
+   height:auto;
+   overflow-x:hidden;
+ }
+ .dls{
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+ .dls dl{
+  width:48%;
+  height:auto;
+  margin:.1rem 0;
+  margin-right:4%;
+}
+.dls dl:nth-child(even){
+  margin-right:0;
+}
+ .dls dl dt{
+ width:100%;
+}
+.dls dl dt img{
+  width:100%;
+}
+.dls dl dd{
+  height:auto;
+  width:100%;
+  margin-left:0;
+  margin-top:.1rem;
+}
+.dls dl dd .ps{
+   width:100%;
+   height:.3rem;
+   display:flex;
+}
+.dls dl dd .ps p{
+  width:100%;
+  height:.3rem;
+ overflow:hidden;
+  word-break:break-all;
+  text-overflow:ellipsis; 
+  display:-webkit-box;
+  flex-direction:column;
+ /*autoprefixer:on*/
+  -webkit-line-clamp:2;
+ -webkit-box-orient:vertical;
+  /* autoprefixer:off   */
+
+  
+}
+.dls dl dd h6{
+  display:flex;
+  width:100%;
+  height:auto;
+  margin-top:.1rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.dls dl dd h6 span{
+  width:50%;
+  font-size:12px;
+   white-space:nowrap;
+  /*text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap; */
+}

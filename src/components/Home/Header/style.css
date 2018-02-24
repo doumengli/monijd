@@ -1,0 +1,19 @@
+.heds{
+    width:100%;
+    height:.4rem;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:99;
+    background:rgba(0,0,0,0.2);
+    background:#f00;
+}
+.am-search heds{
+    background:rgba(0,0,0,0.2)
+}
+.am-search-synthetic-ph{
+    background:rgba(0,0,0,0.2)
+}
+.am-search-value{
+    background:#fff;
+}

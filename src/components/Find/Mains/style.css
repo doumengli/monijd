@@ -1,0 +1,9 @@
+.lefts{
+    text-align: left;
+    font-size:18px;
+    font-weight: 800;
+    color:#333;
+    position: relative;
+    left:-.4rem;
+    top:0rem;
+}

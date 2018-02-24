@@ -1,0 +1,50 @@
+.xqh{
+    height:.4rem;
+    width:100%;
+    display:flex;
+    background:#fff;
+    position: fixed;
+    left:0;
+    top:0;
+}
+.xqh a{
+    flex-grow:1;
+    text-align: center;
+    line-height:.4rem;
+}
+.xqfoot{
+    height:auto;
+    width:100%;
+    padding-bottom:.1rem;
+    display:flex;
+    background:#fff;
+    position: fixed;
+    left:0;
+    bottom:.1rem;
+    margin-top:.2rem;
+}
+.xqfoot dl{
+width:16%;
+font-size:.14rem;
+}
+.xqfoot dl dt{
+    font-size:.3rem;
+}
+.xqfoot dl dd{
+    font-size:.12rem;
+    margin-top:0rem;
+}
+.xqfoot dl:nth-child(4){
+    background:rgb(251, 255, 0);
+    width:28%;
+}
+.xqfoot dl:nth-child(4) dt,.xqfoot dl:nth-child(5) dt{
+    height:.2rem;
+}
+.xqfoot dl:nth-child(4) dd,.xqfoot dl:nth-child(5) dd{
+    font-size:.16rem;
+}
+.xqfoot dl:nth-child(5){
+    background:#f00;
+    width:24%;
+}

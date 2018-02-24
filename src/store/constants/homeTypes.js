@@ -1,0 +1,1 @@
+export const GET_JD_LIST = 'GET-JD_LIST'

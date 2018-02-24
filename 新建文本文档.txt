@@ -1,0 +1,12 @@
+const jdList = JSON.parse(res.data);  // 转为JSon
+json 数据 传过来时 若报错 就先进行判断下
+if(titles!==undefined && titles)
+
+更换数据时报错：
+URL scheme must be "http" or "https" for CORS request
+
+1.子向父
+2.父向子
+3.跨组件传参
+4.父子通信
+5.redux

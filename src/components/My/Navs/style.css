@@ -1,0 +1,34 @@
+.am-tabs-default-bar-content{
+    height:.5rem;
+    width:100%;
+}
+.dldx{
+    width:100%;
+    height:1.5rem;
+    background:#fff;
+    overflow-y:  hidden;
+}
+.dly{
+    width:90%;
+    margin-left:5%;
+    height:.6rem;
+}
+.dly h3{
+    height:.3rem;
+    width:100%;
+    border-bottom:1px solid #666;
+    margin-top:.1rem;
+}
+.dly h3 input{
+    border:none;
+   padding-left:.1rem;
+}
+.am-tabs am-tabs-horizontal am-tabs-top{
+    width:100%;
+    height:1.5rem;
+    background:#f00;
+}
+.am-tabs-content-wrap{
+    touch-action: pan-x pan-y; 
+    position: relative; left: 0%;
+}
